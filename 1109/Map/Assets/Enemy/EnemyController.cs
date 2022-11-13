@@ -51,8 +51,9 @@ public class EnemyController : MonoBehaviour
         agent.speed = chasingSpeed;
         agent.SetDestination(player.transform.position);
         Vector3 distanceToPlayer = transform.position - player.transform.position;
-        if(distanceToPlayer.magnitude < 5.0f)
-            controller.enabled = false;            
+        //
+        // if(distanceToPlayer.magnitude < 5.0f)
+        //     controller.enabled = false;            
     }
 
     public void SearchWalkPoint()
