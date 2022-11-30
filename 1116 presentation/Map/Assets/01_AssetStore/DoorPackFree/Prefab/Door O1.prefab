@@ -309,6 +309,9 @@ MonoBehaviour:
   oddTimeOpenDoor: 0
   lockCinemachine: 0
   doorNumber: 0
+  timer: 0
+  openDoorTime: 4
+  openDoor: 0
 --- !u!54 &7589752542987018769
 Rigidbody:
   m_ObjectHideFlags: 0
