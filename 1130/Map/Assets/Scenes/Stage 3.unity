@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4461714, g: 0.4959492, b: 0.5745611, a: 1}
+  m_IndirectSpecularColor: {r: 0.4461708, g: 0.49594808, b: 0.57455945, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1906,7 +1906,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148265305}
-  m_LocalRotation: {x: 0.08604983, y: 1e-45, z: -0, w: 0.99629086}
+  m_LocalRotation: {x: 0.08604983, y: -0, z: -0, w: 0.99629086}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6299,7 +6299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6307,7 +6307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.z
@@ -6319,11 +6319,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874355983523151901, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_TagString
+      value: Spinning Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
@@ -6858,7 +6862,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: -1.6691537e+12}
+  m_BoundingSphereOverride: {x: 1e-45, y: 5.25873e-38, z: 1e-45, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -7370,6 +7374,10 @@ PrefabInstance:
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874355983523151901, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_TagString
+      value: Spinning Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
@@ -11450,7 +11458,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998477190}
-  m_LocalRotation: {x: 0.104109846, y: -0.000000017112876, z: 0.0000000017913536, w: 0.99456584}
+  m_LocalRotation: {x: 0.104109846, y: 0.00000001711288, z: -0.000000001791354, w: 0.99456584}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11572,8 +11580,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006767834}
-  m_LocalRotation: {x: 0.104109846, y: -0.00000003422576, z: 0.0000000035827072, w: 0.99456584}
-  m_LocalPosition: {x: 10, y: 2.2, z: 6}
+  m_LocalRotation: {x: 0.104109846, y: 0.000000034225764, z: -0.0000000035827075, w: 0.99456584}
+  m_LocalPosition: {x: 10, y: 2.25, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13521,7 +13529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalRotation.z
@@ -13533,11 +13541,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874355983523151901, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_TagString
+      value: Spinning Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
@@ -14987,7 +14999,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: -1.6691537e+12}
+  m_BoundingSphereOverride: {x: 1e-45, y: 5.25873e-38, z: 1e-45, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -15907,9 +15919,10 @@ GameObject:
   - component: {fileID: 1328693988}
   - component: {fileID: 1328693987}
   - component: {fileID: 1328693986}
+  - component: {fileID: 1328693989}
   m_Layer: 0
   m_Name: Spinning Trigger
-  m_TagString: Untagged
+  m_TagString: Spinning Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15937,7 +15950,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328693984}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -15949,7 +15962,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328693984}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -15992,6 +16005,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328693984}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1328693989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328693984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696608af8f6b24da6b147793274b4435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1855309711}
+  goSpinning: 0
 --- !u!1 &1333493842
 GameObject:
   m_ObjectHideFlags: 0
@@ -20822,7 +20849,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149563001249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c3316a4f7e4a4fff90a938c1459d9ff, type: 3}
   m_Name: 
@@ -20840,7 +20867,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149563001249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17bcb504375744cdbbf7998d5e18ff23, type: 3}
   m_Name: 
@@ -22620,7 +22647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958723321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 2.2, z: 6}
+  m_LocalPosition: {x: 10, y: 2.25, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23293,7 +23320,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: -1.6691537e+12}
+  m_BoundingSphereOverride: {x: 0, y: 3.76e-43, z: 0, w: 7.51e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -24385,6 +24412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 158599217}
     m_Modifications:
+    - target: {fileID: 344963063797533363, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1194205075920291506, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_Name
       value: Door S (1)
@@ -24432,6 +24463,14 @@ PrefabInstance:
     - target: {fileID: 1194205075920460434, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874355983523151901, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874355983523151901, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
+      propertyPath: m_TagString
+      value: Spinning Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879c46f7e8bafd949bac611bca1db7e4, type: 3}
@@ -24770,7 +24809,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108586641}
-  m_LocalRotation: {x: 0.12218327, y: -0.000000017077465, z: 0.0000000021023319, w: 0.9925076}
+  m_LocalRotation: {x: 0.12218325, y: -0.000000017077465, z: 0.0000000021023316, w: 0.9925076}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25438,7 +25477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149563001249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 1.2, z: 10}
+  m_LocalPosition: {x: 10, y: 1.25, z: 10}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25632,7 +25671,7 @@ GameObject:
   - component: {fileID: 1855309723}
   - component: {fileID: 1855309724}
   - component: {fileID: 1855309725}
-  - component: {fileID: 919132149563001253}
+  - component: {fileID: 919132149563001250}
   m_Layer: 7
   m_Name: Junkie
   m_TagString: Player
@@ -25640,7 +25679,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132149563001253
+--- !u!114 &919132149563001250
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25649,7 +25688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 919132149563001249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9418d7b2340204c9042747ba2f1f16, type: 3}
+  m_Script: {fileID: 11500000, guid: c3222222d9f4eea4785966c78e1c6c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   forceMagnitude: 5

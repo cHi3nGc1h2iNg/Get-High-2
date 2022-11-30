@@ -26,6 +26,8 @@ TagManager:
   - Tag 13
   - Tag 14
   - Spinning Tag 15
+  - Spinning Room
+  - Spinning Door
   layers:
   - Default
   - TransparentFX
